@@ -1,0 +1,36 @@
+{
+  "menu": [
+    { "name": "Dashboard", "slug": "dashboard" },
+    {
+      "name": "Campaigns",
+      "expanded": false,
+      "submenu": [
+        { "name": "Campaigns Management", "slug": "campaign-management" },
+        { "name": "Domain Management", "slug": "domain-management" },
+        { "name": "Pool Management", "slug": "pool-management" },
+        { "name": "Template Management", "slug": "template-management" },
+        { "name": "Send Bulk SMS", "slug": "send-bulk-sms" }
+      ]
+    },
+    { "name": "Auto Responder", "slug": "auto-responder" },
+    {
+      "name": "List",
+      "expanded": false,
+      "submenu": [
+        { "name": "List Management", "slug": "list-management" },
+        { "name": "List Import", "slug": "list-import" },
+        { "name": "List Merge", "slug": "list-marge" },
+        { "name": "Unsubscribe", "slug": "unsubscribe" }
+      ]
+    },
+    { "name": "Numbers", "slug": "phone-number" },
+    {
+      "name": "Account",
+      "expanded": false,
+      "submenu": [
+        { "name": "Setting", "slug": "account-settings" },
+        { "name": "Billing", "slug": "billing" }
+      ]
+    }
+  ]
+}

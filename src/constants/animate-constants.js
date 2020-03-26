@@ -1,0 +1,8 @@
+export const TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR';
+export const TOGGLE_SHOW = 'TOGGLE_SHOW';
+export const TOGGLE_NOTIFY = 'TOGGLE_NOTIFY';
+export const NOTIFY_CLOSE = 'NOTIFY_CLOSE';
+export const TOGGLE_CAMPAIGN = 'TOGGLE_CAMPAIGN';
+export const TOGGLE_LIST = 'TOGGLE_LIST';
+export const TOGGLE_ACCOUNT = 'TOGGLE_ACCOUNT';
+    
