@@ -92,12 +92,12 @@ function rootReducer(state = initialState, action) {
             return { ...state };
 
         case AUTH_LOGIN:
-            localStorage.setItem('sendplex-frontend-auth-user', JSON.stringify(action.user_data));
+            localStorage.setItem('send_sms-frontend-auth-user', JSON.stringify(action.user_data));
             state.auth = action.user_data;
             return { ...state };
 
         case AUTH_LOGOUT:
-            localStorage.removeItem('sendplex-frontend-auth-user');
+            localStorage.removeItem('send_sms-frontend-auth-user');
             state.auth = [];
             return { ...state };
 

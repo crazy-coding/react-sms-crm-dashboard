@@ -52,7 +52,7 @@ class layout extends Component {
                 <div className='container'>
                   <div className='row align-items-center flex-row-reverse text-white-50'>
                     <div className='col-md-12 col-sm-12 text-center'>
-                      Copyright © <a href=''>Sendplex</a>. All rights reserved.
+                      Copyright © <a href=''>SendSMS</a>. All rights reserved.
                     </div>
                   </div>
                 </div>

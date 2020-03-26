@@ -9,7 +9,7 @@ import { receiveFetchData } from '../actions';
 import config from '../config/index';
 import axios from 'axios';
 import { PerPageOption, SearchOption, Pagination } from './component/TableOptions'
-import SendplexModal from './component/SendplexModal'
+import SendSMSModal from './component/SendSMSModal'
 import toast from 'toasted-notes' 
 import 'toasted-notes/src/styles.css';
 import { func } from "prop-types";
@@ -455,7 +455,7 @@ class DomainManagement extends Component {
                     <i className='si si-plus mr-2 text-white'></i>Domain API Setting
                   </button>
                 </div>
-                <SendplexModal isOpen={isOpen} toggle={this.toggle} className="" values={values}
+                <SendSMSModal isOpen={isOpen} toggle={this.toggle} className="" values={values}
                   modalLoader={modalLoader} confirmAction={this.confirmAction} 
                   modalContent={modalContent} inputHandler={this.inputHandler} />
                 <div className='card-body'>

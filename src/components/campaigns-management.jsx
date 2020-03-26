@@ -8,7 +8,7 @@ import { faPencilAlt,faCode,faTrashAlt } from '@fortawesome/free-solid-svg-icons
 import { receiveFetchData } from '../actions';
 import config from '../config/index';
 import axios from 'axios';
-import SendplexModal from './component/SendplexModal'
+import SendSMSModal from './component/SendSMSModal'
 import { PerPageOption, SearchOption, Pagination } from './component/TableOptions'
 import toast from 'toasted-notes' 
 import 'toasted-notes/src/styles.css';
@@ -449,7 +449,7 @@ class CampaignManagement extends Component {
                     <i className='si si-plus mr-2 text-white'></i>Add New Campaign
                   </button>
                 </div>
-                <SendplexModal isOpen={isOpen} toggle={this.toggle} className="" values={values}
+                <SendSMSModal isOpen={isOpen} toggle={this.toggle} className="" values={values}
                   modalLoader={modalLoader} confirmAction={this.confirmAction} 
                   modalContent={modalContent} inputHandler={this.inputHandler} />
                 <div className='card-body'>

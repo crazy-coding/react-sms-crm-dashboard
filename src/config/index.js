@@ -2,7 +2,7 @@
 let env = typeof UIENV !== 'undefined' ? UIENV : process.env; // UIENV comes when run through webpack
 
 let envURL = env.hasOwnProperty('REACT_APP_API_URL') && env.REACT_APP_API_URL != '' ? env.REACT_APP_API_URL : false;
-const API_URL = 'https://api.sendplex.io';
+const API_URL = 'https://api.send_sms.io';
 let config = {
   'moduleURL': envURL || 'http://127.0.0.1:3000',
   'me': API_URL + '/me',

@@ -8,7 +8,7 @@ import { connect } from "react-redux";
 import { receiveFetchData } from '../actions';
 import config from '../config/index';
 import axios from 'axios';
-import SendplexModal from './component/SendplexModal'
+import SendSMSModal from './component/SendSMSModal'
 import { PerPageOption, SearchOption, Pagination } from './component/TableOptions'
 import toast from 'toasted-notes' 
 import 'toasted-notes/src/styles.css';
@@ -403,7 +403,7 @@ class ListManagement extends Component {
                   </div>
                   <h4 className='card-title'>Apply to selected domain below</h4>
                 </div>
-                <SendplexModal isOpen={isOpen} toggle={this.toggle} className="" values={values}
+                <SendSMSModal isOpen={isOpen} toggle={this.toggle} className="" values={values}
                   modalLoader={modalLoader} confirmAction={this.confirmAction} 
                   modalContent={modalContent} inputHandler={this.inputHandler} />
                 <div className='card-body'>

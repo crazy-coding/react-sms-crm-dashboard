@@ -10,7 +10,7 @@ import {
 import PropTypes from 'prop-types';
 import imageLoader from "../../assets/images/modal-loader.gif"
   
-const SendplexModal = (props) => {
+const SendSMSModal = (props) => {
     const {
         toggle,
         isOpen,
@@ -59,7 +59,7 @@ const SendplexModal = (props) => {
     </Modal>;
 };
 
-SendplexModal.propTypes = {
+SendSMSModal.propTypes = {
     toggle: PropTypes.func.isRequired,
     isOpen: PropTypes.bool,
     className: PropTypes.string,
@@ -70,4 +70,4 @@ SendplexModal.propTypes = {
     values: PropTypes.object
 };
   
-export default SendplexModal;
+export default SendSMSModal;

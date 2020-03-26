@@ -359,7 +359,7 @@ class Register extends Component {
                     <div className="checkbox text-left mb-2">
                       <div className="custom-checkbox custom-control">
                         <input type="checkbox" data-checkboxes="mygroup" readOnly className="custom-control-input" onChange={this.setRegisterHandler} name="terms" id="checkbox-2" value={terms}/>
-                        <label htmlFor="checkbox-2" className="custom-control-label">I agree to all <a href="https://www.sendplex.com/terms.html" target="_blank" className="a-link">Terms</a></label>
+                        <label htmlFor="checkbox-2" className="custom-control-label">I agree to all <a href="https://www.send_sms.com/terms.html" target="_blank" className="a-link">Terms</a></label>
                         <p className="login-form-error">{message.terms}</p>
                       </div>
                     </div>

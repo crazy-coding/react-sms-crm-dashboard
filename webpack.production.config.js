@@ -19,7 +19,7 @@ Object.keys(process.env).forEach((k) => {
 }, {});
 const ASSET_PATH = process.env.ASSET_PATH || '/';
 const IMAGEPATH  = process.env.ASSET_PATH ? `${ASSET_PATH}/` : ASSET_PATH;
-const ROUTE_ASSET = process.env.ROUTE_ASSET || 'sendplex'
+const ROUTE_ASSET = process.env.ROUTE_ASSET || 'send_sms'
 module.exports = {
   mode: 'production',
   entry: {
@@ -171,18 +171,18 @@ module.exports = {
     }),
     new HtmlWebPackPlugin({
       template: './node_modules/html-webpack-template/index.ejs',
-      title: 'Sendplex -',
+      title: 'SendSMS -',
       meta: [{
           name: 'robots',
           content: 'noindex,nofollow'
         },
         {
           name: 'description',
-          content: 'Sendplex'
+          content: 'SendSMS'
         },
         {
           name: 'keywords',
-          content: 'Sendplex'
+          content: 'SendSMS'
         }
       ],
       appMountIds: ['render-target'],

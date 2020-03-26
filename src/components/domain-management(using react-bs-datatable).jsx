@@ -153,7 +153,7 @@ class DomainManagement extends Component {
                               <span className='colorinput-color bg-azure'></span>
                             </label>
                           </td>
-                          <td>sendplex.com</td>
+                          <td>send_sms.com</td>
                           <td>
                             <span className='badge badge-pill badge-danger'>Hold</span>
                           </td>

@@ -11,7 +11,7 @@ var envKeys = {};
 Object.keys(process.env).forEach((k) => {
     envKeys[`${k}`] = JSON.stringify(process.env[k]);
 }, {});
-let ROUTE_ASSET = process.env.ROUTE_ASSET || 'sendplex'
+let ROUTE_ASSET = process.env.ROUTE_ASSET || 'send_sms'
 module.exports = {
     context: __dirname,
     mode: 'development',
@@ -106,7 +106,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/assets/index.ejs',
-            title: 'Sendplex - ',
+            title: 'SendSMS - ',
         
             meta: [
                 {
@@ -115,11 +115,11 @@ module.exports = {
                 },
                 {
                     name: 'description',
-                    content: 'Sendplex'
+                    content: 'SendSMS'
                 },
                 {
                     name: 'keywords',
-                    content: 'Sendplex'
+                    content: 'SendSMS'
                 }
             ],
             appMountIds: ['render-target'],

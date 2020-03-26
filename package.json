@@ -1,5 +1,5 @@
 {
-  "name": "Sendplex",
+  "name": "SendSMS",
   "version": "1.0.0",
   "description": "React - Webpack - Docker | HMR for Development | Express for Production",
   "main": "index.js",

@@ -6,7 +6,7 @@ const app = express();
 let env = process.env; //UIENV comes when run through webpack
 const staticPath = path.join(__dirname, './build/');
 app.use(express.static(staticPath));
-const ROUTE_ASSET = process.env.ROUTE_ASSET || 'sendplex'
+const ROUTE_ASSET = process.env.ROUTE_ASSET || 'send_sms'
 app.get("*.css", (req, res, next) => {
   res.sendFile(path.join(__dirname, `./build/${ROUTE_ASSET}`+req.url));
 });

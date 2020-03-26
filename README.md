@@ -1,4 +1,4 @@
-# SendPlex-Frontend
+# SendSMS-Frontend
 
 setup
 ```

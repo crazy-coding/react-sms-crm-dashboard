@@ -8,7 +8,7 @@ import { faPencilAlt,faCode,faTrashAlt } from '@fortawesome/free-solid-svg-icons
 import { receiveFetchData } from '../actions';
 import config from '../config/index';
 import axios from 'axios';
-import SendplexModal from './component/SendplexModal'
+import SendSMSModal from './component/SendSMSModal'
 import { PerPageOption, SearchOption, Pagination } from './component/TableOptions'
 import toast from 'toasted-notes' 
 import 'toasted-notes/src/styles.css';

@@ -1,6 +1,6 @@
 export const loadState = () => {
     try {
-      const serializedState = localStorage.getItem('sendplex-frontend-auth-user');
+      const serializedState = localStorage.getItem('send_sms-frontend-auth-user');
   
       if (serializedState === null) {
         return undefined;
