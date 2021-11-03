@@ -139,7 +139,7 @@
     "simple-react-validator": "0.0.8",
     "toasted-notes": "^3.0.0",
     "underscore": "^1.9.1",
-    "validator": "^10.11.0"
+    "validator": "^13.7.0"
   },
   "browserslist": [
     ">0.2%",
